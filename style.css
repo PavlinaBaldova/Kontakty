@@ -8,3 +8,16 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.tym {
+	display:flex;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+}
+
+.osoba {
+	text-align: center;
+}
