@@ -21,30 +21,31 @@ h1 {
 .osoba {
 	text-align: center;
 	border: 1px solid gray;
-	margin: 15px;
+	margin: 2%;
 	border-radius: 2%;
 	box-shadow: 2px 2px lightblue;
+	padding: 0 20px 0 20px;
 }
 
 img {
 	padding-top: 20px;
+	border-radius: 50%;
+	max-width: 100%;
 }
 
 .popis {
 	text-align: center;
 }
 
-img {
-	border-radius: 50%;
-}
 
 @media (min-width:540px) {
 	.tym {
 		display:flex;
-		flex:wrap;
+		flex-wrap: wrap;
+		flex-direction: row;
 	}
 	.osoba {
-		width:50%;
+		width: 46%;
 	}
 }
 
@@ -53,9 +54,10 @@ img {
 	.tym {
 		display:flex;
 		flex-direction: row;
-		flex:wrap;
+		justify-content: flex-start;
 	}
 	.osoba {
-		width:50%;
+		width: 20%;
+		text-align: center;
 	}
 }
