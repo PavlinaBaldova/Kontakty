@@ -20,4 +20,42 @@ h1 {
 
 .osoba {
 	text-align: center;
+	border: 1px solid gray;
+	margin: 15px;
+	border-radius: 2%;
+	box-shadow: 2px 2px lightblue;
+}
+
+img {
+	padding-top: 20px;
+}
+
+.popis {
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+}
+
+@media (min-width:540px) {
+	.tym {
+		display:flex;
+		flex:wrap;
+	}
+	.osoba {
+		width:50%;
+	}
+}
+
+
+@media (min-width:960px) {
+	.tym {
+		display:flex;
+		flex-direction: row;
+		flex:wrap;
+	}
+	.osoba {
+		width:50%;
+	}
 }
