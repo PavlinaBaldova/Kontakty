@@ -63,15 +63,36 @@ h1 {
   .item {
     flex-direction: row;
     width: 500px;
+  }
+  .popis {
+    padding: 20px;
+    text-align: left;
+  }
+  .jmeno {
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    flex-direction: row;
+		flex-wrap: wrap;
+  }
+  .item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    width: 500px;
+    margin: 20px;
+    height: 300px;
+    width: 350px;
 	}
-	.popis {
-		padding: 20px;
-		text-align: left;
-	}
+	.popis,
 	.jmeno {
-		text-align: left;
-		padding-left: 20px;
+		padding: 0;
+		text-align: center;
 	}
-	
+
 
 }
