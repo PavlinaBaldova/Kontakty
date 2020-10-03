@@ -62,7 +62,8 @@ h1 {
   }
   .item {
     flex-direction: row;
-    width: 500px;
+		width: 500px;
+		height: 200px;
   }
   .popis {
     padding: 20px;
